@@ -1,0 +1,146 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.conteiner {
+	position: relative;
+	min-height: 100%;
+	min-width: 980px;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
+a {
+	color: rgba(0, 0, 0, 0.87);
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+nav {
+	line-height: 30px;
+	margin-top: 15px;
+	float: right;
+	border: 0;
+	padding: 0 30px;
+	display: block;
+}
+
+nav a,
+nav div {
+	display: inline-block;
+	padding-left: 15px;
+	vertical-align: middle;
+}
+
+.navbar-button {
+	background: #4285f4;
+	color: #fff;
+	padding: 0 12px;
+	border-radius: 2px;
+	border: 1px solid #4285f4;
+	font-weight: bold;
+}
+
+form {
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+.googlelogo {
+	height: 233px;
+	padding-top: 89px;
+}
+
+.googlelogo img {
+	padding-top: 109px;
+}
+
+.searchbox {
+	display: inline-block;
+	width: 482px;
+	height: 42px;
+	border: 1px solid lightgrey;
+	box-shadow: 0px 3px 10px -5px;
+	border-radius: 2px;
+}
+
+.searchbox input {
+	font: 16px arial, sans-serif;
+	width: calc(100% - 48px);
+	line-height: 100%;
+	border: 0;
+	outline: 0;
+}
+
+.googlemic {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	height: 24px;
+	width: 24px;
+}
+
+.buttons {
+	padding: 18px;
+}
+
+.buttongrey {
+	height: 36px;
+	line-height: 27px;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	color: #757575;
+	cursor: pointer;
+	font-weight: bold;
+	margin: 11px 4px;
+	min-width: 54px;
+	padding: 0 16px;
+	text-align: center;
+}
+
+.buttongrey:hover {
+	border: 1px solid lightgrey;
+}
+
+
+footer {
+	bottom: 0;
+	position: absolute;
+	min-width: 980px;
+	width: 100%;
+}
+
+.footline {
+	box-sizing: border-box;
+	border-top: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+	color: rgba(0, 0, 0, .54);
+	background: #f2f2f2;
+	line-height: 40px;
+	height: 40px;
+}
+
+.footline div {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.footline a,
+.footline p {
+	display: inline-block;
+	margin: 0;
+	color: #5f6368;
+	padding-left: 27px;
+}
+
+.footer-right {
+	float: right;
+}
